@@ -59,7 +59,13 @@ p {
   .pages {
     background-repeat: no-repeat;
   }
-  .fondo-index-main-version-tablet, .fondo-index-main-version-mobile {
+  .fondo-index-main {
+    background-repeat: no-repeat;
+  }
+  .fondo-index-main-version-tablet {
+    display: none;
+  }
+  .fondo-index-main-version-mobile {
     display: none;
   }
 }
@@ -127,6 +133,15 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .fondo-index-main {
+    display: none;
+  }
+  .fondo-index-main-version-tablet {
+    background-repeat: no-repeat;
+  }
+  .fondo-index-main-version-mobile {
+    display: none;
+  }
   /* MAIN CONTACTO */
   .formulario {
     width: 50%;
@@ -182,6 +197,15 @@ p {
     margin: 60px 40px 40px 40px;
     justify-content: center;
     align-items: center;
+  }
+  .fondo-index-main {
+    display: none;
+  }
+  .fondo-index-main-version-tablet {
+    display: none;
+  }
+  .fondo-index-main-version-mobile {
+    background-repeat: no-repeat;
   }
   /* NAVBAR */
   .btn_menu {
@@ -326,6 +350,7 @@ main {
 .group-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   width: 50%;
   margin: 0 auto;
   justify-content: center;
@@ -338,7 +363,7 @@ main {
   align-content: center;
   justify-content: center;
   height: 250px;
-  width: 150px;
+  width: 200px;
   padding: 15px;
   margin: 10px;
 }

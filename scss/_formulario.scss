@@ -1,0 +1,47 @@
+/* ACÁ COMIENZA MAIN SECCIÓN CONTACTO */
+  
+.formulario {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+  
+    h2 {
+      color: #D9D9D9;
+    }
+  }
+  
+  p {
+    color: #D9D9D9;
+  }
+  
+  .form-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+  
+  .form-bottom {
+    display: grid;
+    margin-top: 50px;
+  
+    .botones {
+      text-align: center;
+    }
+  
+    .boton {
+      background-color: #c9cbcb;
+      color: rgb(141, 140, 140);
+      border: #c9cbcb;
+  
+      &:hover {
+        background-color: #2b8aa7;
+        color: white;
+      }
+    }
+  }
+  
+  /* ACÁ FINALIZAD MAIN SECCIÓN CONTACTO */

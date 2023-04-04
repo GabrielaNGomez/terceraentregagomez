@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* HEADER */
+.container-fluid h1 {
+  color: #D9D9D9;
+  font-size: 20px;
+}
+
+.collapse a {
+  text-transform: uppercase;
+  color: #D9D9D9;
+  font-size: 17px;
+}
+
+/* ACÁ COMIENZA MAIN SECCIÓN CONTACTO */
+.formulario {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 20px;
+}
+.formulario h2 {
+  color: #D9D9D9;
+}
+
+p {
+  color: #D9D9D9;
+}
+
+.form-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.form-bottom {
+  display: grid;
+  margin-top: 50px;
+}
+.form-bottom .botones {
+  text-align: center;
+}
+.form-bottom .boton {
+  background-color: #c9cbcb;
+  color: rgb(141, 140, 140);
+  border: #c9cbcb;
+}
+.form-bottom .boton:hover {
+  background-color: #2b8aa7;
+  color: white;
+}
+
+/* ACÁ FINALIZAD MAIN SECCIÓN CONTACTO */
+/* ACÁ COMIENZA MAIN SECCIÓN MEDIAS */
+/* VERSION DESKTOP */
+@media screen and (min-width: 768px) {
+  .pages {
+    background-repeat: no-repeat;
+  }
+  .fondo-index-main-version-tablet, .fondo-index-main-version-mobile {
+    display: none;
+  }
+}
+/* VERSION TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* ACÁ COMIENZA PÁGINA EN CONSTRUCCIÓN */
+  .pagina-en-proceso {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .seccion-A {
+    margin: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .seccion-B img {
+    margin-top: 0;
+    width: 50%;
+  }
+  .button-en-proceso {
+    margin: 10px 0 0 0;
+  }
+  /* PROYECTOS */
+  .main-proyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 60px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* NAVBAR */
+  .btn_menu {
+    display: inline-flex;
+  }
+  .menu_items {
+    position: fixed;
+    width: 100vw;
+    top: -100vw;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+  .menu_items li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+  /* MAIN */
+  .fondo-index-main, .fondo-index-main-version-mobile {
+    display: none;
+  }
+  /* MAIN PAGES */
+  .pages {
+    background-image: url(./img/fondo-body-pages-750px.png);
+    background-repeat: no-repeat;
+  }
+  .group-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  /* MAIN CONTACTO */
+  .formulario {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .form-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+  /* GALERIA DE TRABAJOS */
+  .contenedor-galeria {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/* VERSION MOBILE */
+@media (min-width: 400px) and (max-width: 480px) {
+  /* ACÁ COMIENZA PÁGINA EN CONSTRUCCIÓN */
+  .pagina-en-proceso {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .seccion-A {
+    margin: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .seccion-B img {
+    margin-top: 0;
+    width: 50%;
+  }
+  .button-en-proceso {
+    margin: 10px 0 0 0;
+  }
+  /* PROYECTOS */
+  .main-proyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 60px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* NAVBAR */
+  .btn_menu {
+    display: inline-flex;
+  }
+  .menu_items {
+    position: fixed;
+    width: 100vw;
+    top: -100vw;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+  .menu_items li {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+  /* MAIN */
+  .fondo-index-main, .fondo-index-main-version-tablet {
+    display: none;
+  }
+  /* MAIN PAGES */
+  .pages {
+    background-image: url(./img/fondo-body-pages-480px.png);
+    background-repeat: no-repeat;
+  }
+  .group-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  /* GALERIA DE TRABAJOS */
+  .contenedor-galeria {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/* ACÁ FINALIZAD MAIN SECCIÓN MEDIAS */
+body {
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  overflow: hidden;
+}
+
+.pages {
+  background-image: url(img/BodyPages1277px.png);
+}
+
+/* MAIN */
+/* ACÁ COMIENZA MAIN SECCIÓN PROYECTOS */
+.main-proyectos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 60px 40px 40px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-main {
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.5s;
+  justify-content: center;
+  overflow: hidden;
+  width: 300px;
+  height: auto;
+}
+.card-main:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0px 2px 3px #FFFFFF);
+}
+.card-main h2 a {
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.card-img {
+  text-align: center;
+}
+
+.card-footer {
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+/* ACÁ FINALIZA MAIN SECCIÓN PROYECTOS */
+/* ACÁ COMIENZA MAIN SECCIÓN SOBRE MI */
+.group-text {
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.group-text h2 {
+  text-transform: uppercase;
+  color: #D9D9D9;
+}
+.group-text p {
+  color: #D9D9D9;
+  line-height: 25px;
+}
+
+.button-CV {
+  border: 1px solid #62C5E3;
+  background-color: #62C5E3;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  width: 7rem;
+  height: 2rem;
+  display: inline-block;
+  transition: all 0.3 ease-in;
+}
+.button-CV:hover {
+  background-color: #2b8aa7;
+  border: 1px solid #2b8aa7;
+  color: #FFFFFF;
+}
+
+.group-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.group-card .card {
+  border: 0.2rem solid #62C5E3;
+  background-color: #000000;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  height: 250px;
+  width: 150px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.row-top {
+  font-size: 4rem;
+  color: #62C5E3;
+  text-align: center;
+}
+
+.row-bottom h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+.row-bottom p {
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* ACÁ FINALIZA MAIN SECCIÓN SOBRE MI */
+/* ACÁ COMIENZA LA SECCIÓN FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.btn-primary {
+  padding: 10px;
+  font-size: 20px;
+  color: #62C5E3;
+}
+.btn-primary:hover {
+  color: #9eddf0;
+}
+
+/* ACÁ FINALIZA LA SECCIÓN FOOTER */
+/* ACÁ COMIENZA SECCIÓN MAIN GALERIA DE TRABAJOS */
+.contenedor-galeria {
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.contenedor-galeria .card-galeria {
+  width: 334px;
+  height: 270px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.contenedor-galeria .card-galeria h2 {
+  color: #62C5E3;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.contenedor-galeria .card-galeria h3 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin-left: 1rem;
+  width: 90%;
+}
+.contenedor-galeria .card-galeria h5 {
+  margin-left: 12px;
+  margin-top: 2px;
+  color: #6E6E6E;
+  font-size: 1rem;
+}
+
+hr {
+  width: 17rem;
+  color: #2b8aa7;
+  margin-left: 12px;
+}
+
+.contenedor-galeria .imagen-galeria:hover {
+  filter: opacity(0.5);
+}
+
+/* ACÁ FINALIZA  SECCIÓN MAIN GALERIA DE TRABAJOS*/
+/* ACÁ COMIENZA PÁGINA EN CONSTRUCCIÓN */
+.pagina-en-proceso {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.seccion-A {
+  margin: 120px 30px 30px 30px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.seccion-A h2 {
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.seccion-B img {
+  width: 80%;
+  margin: 120px 30px 30px 30px;
+}
+
+.button-en-proceso {
+  margin: 30px 0 0 0;
+  border: 1px solid #62C5E3;
+  background-color: #62C5E3;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  width: 7rem;
+  height: 2rem;
+  display: inline-block;
+  transition: all 0.3 ease-in;
+}
+.button-en-proceso:hover {
+  background-color: #2b8aa7;
+  border: 1px solid #2b8aa7;
+  color: #FFFFFF;
+}
+
+/* ACÁ FINALIZA PÁGINA EN CONSTRUCCIÓN */
+
+/*# sourceMappingURL=estilos.css.map */
